@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Librairy</title>
+   <link rel="stylesheet" href="style.css">  
+<link rel="stylesheet" href="style-library.css">
+     
+
+</head>
+
+<body>
+    <nav id="navbar">
+        <h2 class="logo">Nazrul Library</h2>
+        <ul>
+            <li><a href="#">Home</a></li>
+        </ul>
+        <div class="input">
+            <input type="text" name="search" id="search" placeholder="Search">
+            <button class="bqwtn">search</button>
+        </div>
+    </nav>
+    <div id="msg"></div>
+    
+    <div class="main">
+        <h1>Nazrul Library</h1>
+        <hr>
+        <form action="" id="librarysubmit" class="formdiv">
+
+            <div class="margininput">
+                <!--- Book Name Div-->
+                <div class="col-25">
+                    <label for="fname">Book Name</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="booksname" name="firstname" placeholder="Your name..">
+                </div>
+            </div>
+            <!--- End Book Name Div-->
+
+
+           
+
+            <div class="margininput">
+                <!--- Author Name Div-->
+                <div class="col-25">
+                    <label for="fname">Author Name</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="authorname" name="firstname" placeholder="Your name..">
+                </div>
+            </div>
+            <!--- End Author Name Div-->
+
+
+            <div class="bookgenres">
+                <!---Book Genres Section-->
+                Book Genres <br>
+                <div class="chek"><input type="radio" id="fiction" name="genres"  value="Fiction"> Fictioon <br>
+                    <input type="radio" name="genres" id="Cooking" value="Cooking"> Cooking <br>
+                    <input type="radio" name="genres" id="coumputer" value="cumputer"> Coumputer <br></div>
+            </div>
+            <!--- End Book Genres Section-->
+
+            <button class="btn" id="addbook">Add Book</button>
+
+        </form>
+       
+
+            <h1>Book List</h1>
+            <div class="tdvi">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Ser No</th>
+                        <th scope="col">Book Name</th>
+                        <th scope="col">Author</th>
+                        <th scope="col">Book Genres</th>
+                        <th scope="col">Action</th>
+                    </tr>
+                </thead>
+                <tbody id="tablebody">
+             
+                </tbody>
+        
+            </table>
+            </div>
+        
+    </div>
+    </div>
+
+    <h3><a href="https://www.digitalhindi4u.com/2020/02/cute-love-status-in-hindi.html">Read Hindi Love Status</a></h3>
+    <h3><a href="https://www.digitalhindi4u.com/2020/02/cute-love-status-in-hindi.html">Heart Touching Status</a></h3>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
